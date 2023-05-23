@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+	<title>Ejercicio #9 HTML | CSS | JS </title>	
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<main>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			  <a class="navbar-brand" href="#">Ejemplo JS</a>
+			  
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link" href="../index.html">Inicio</a>
+				      </li>			      
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Ejercicios JS
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          	<a class="dropdown-item" href="exercise1.html">Ejercicio 1</a>
+				          	<a class="dropdown-item" href="exercise2.html">Ejercicio 2</a>
+				          	<a class="dropdown-item" href="exercise3.html">Ejercicio 3</a>
+							<a class="dropdown-item" href="exercise4.html">Ejercicio 4</a>
+							<a class="dropdown-item" href="exercise5.html">Ejercicio 5</a>
+							<a class="dropdown-item" href="exercise6.html">Ejercicio 6</a>
+							<a class="dropdown-item" href="exercise7.html">Ejercicio 7</a>
+							<a class="dropdown-item" href="exercise8.html">Ejercicio 8</a>
+							<a class="dropdown-item" href="exercise9.html">Ejercicio 9</a>
+							<a class="dropdown-item" href="exercise10.html">Ejercicio 10</a>
+							<a class="dropdown-item" href="exercise11.html">Ejercicio 11</a>
+							<a class="dropdown-item" href="exercise12.html">Ejercicio 12</a>
+							<a class="dropdown-item" href="exercise13.html">Ejercicio 13</a>
+				        </div>
+				      </li>
+				    </ul>			    
+			  	</div>
+			</nav>
+		</header>
+		<section class="container mt-4">
+			<div class="text-center">
+				<h1>Ejercicio JS #9</h1>
+			</div>
+			<section class="row">
+				<article class="col-12 col-sm-12 col-md-6">
+					<div class="text-center">
+						<h3>Dados ciertos centímetros como entrada de tipo decimal, escribir su equivalente a pies y pulgadas. Considerar 2.54 cm por pulgada y 12 pulgadas por pie. La salida podrá ser: 333.3 cm son 10 pies y 11.2 pulgadas.</h3>
+					</div>
+					<div>
+						<label>Ingrese numero en cm:</label>
+						<input type="number" class="form-control" id="number">
+					</div>
+					<div class="mt-3">
+						<button class="btn btn-dark" onclick="medidas()">Calcular</button>
+					</div>
+				</article>
+				<article class="col-12 col-sm-12 col-md-6 text-center" id="response9">
+				</article>
+			</section>
+		</section>		
+	</main>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/script.js"></script>
+</body>
+</html>
